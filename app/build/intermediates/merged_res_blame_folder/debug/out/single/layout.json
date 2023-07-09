@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "org.tensorflow.lite.examples.audio.app-mergeDebugResources-24:/layout/fragment_audio.xml",
+        "source": "org.tensorflow.lite.examples.audio.app-main-27:/layout/fragment_audio.xml"
+    },
+    {
+        "merged": "org.tensorflow.lite.examples.audio.app-mergeDebugResources-24:/layout/controls_bottom_sheet.xml",
+        "source": "org.tensorflow.lite.examples.audio.app-main-27:/layout/controls_bottom_sheet.xml"
+    },
+    {
+        "merged": "org.tensorflow.lite.examples.audio.app-mergeDebugResources-24:/layout/item_probability.xml",
+        "source": "org.tensorflow.lite.examples.audio.app-main-27:/layout/item_probability.xml"
+    },
+    {
+        "merged": "org.tensorflow.lite.examples.audio.app-mergeDebugResources-24:/layout/activity_main.xml",
+        "source": "org.tensorflow.lite.examples.audio.app-main-27:/layout/activity_main.xml"
+    }
+]

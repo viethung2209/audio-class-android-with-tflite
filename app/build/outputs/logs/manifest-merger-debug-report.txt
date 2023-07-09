@@ -1,0 +1,267 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Downloads\examples\lite\examples\audio_classification\android\app\src\main\AndroidManifest.xml:17:1-42:12
+INJECTED from D:\Downloads\examples\lite\examples\audio_classification\android\app\src\main\AndroidManifest.xml:17:1-42:12
+INJECTED from D:\Downloads\examples\lite\examples\audio_classification\android\app\src\main\AndroidManifest.xml:17:1-42:12
+INJECTED from D:\Downloads\examples\lite\examples\audio_classification\android\app\src\main\AndroidManifest.xml:17:1-42:12
+MERGED from [androidx.databinding:viewbinding:7.4.2] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\357004b0c6289e41175b478f5d627a6f\transformed\viewbinding-7.4.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\b05fc131ca6959c32ccd4add5667026e\transformed\navigation-fragment-ktx-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\7e9f95f67e76fd3056585d8511de9447\transformed\fragment-ktx-1.2.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\9d6bcd00429a95652b9cd137cd37a019\transformed\navigation-ui-ktx-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.5] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\ad804154f9801281616547a4c82f1bcd\transformed\navigation-runtime-ktx-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.5] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\9c1e6d0c63bc3b0cc3f19933b5fc6799\transformed\navigation-common-ktx-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.1.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\5be2d40c8c827b48a61dad78c6ec966a\transformed\activity-ktx-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.6.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\9c8d303f3d73c349ff0c944c60fc34c4\transformed\core-ktx-1.6.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\f61ecd5483bf95eef2605cf3f7cab2e2\transformed\lifecycle-runtime-ktx-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\1dbb9267b44ef05f3745eaf50769b70e\transformed\lifecycle-viewmodel-ktx-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\19370ab5df133d2df1cd74ce821c5f5b\transformed\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\6d5eb70f609069e7da56822bc2236b05\transformed\navigation-ui-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\5b78c74b519ed063b24b770809b3eaad\transformed\material-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\f08307c784d8cbed3fd3759610bf58ee\transformed\appcompat-1.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\4eabd3cc4d1349fb4d0b316589668d85\transformed\recyclerview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\80015d2bdf91f546a5de8972988b7088\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\6c126dad25a15228e46af19353522346\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\eaf3699f0d9df019bba7b5676f7190e1\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [org.tensorflow:tensorflow-lite-task-audio:0.4.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\00a9c0e4da3d72e08f158b9c709dce8d\transformed\tensorflow-lite-task-audio-0.4.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\2e33c752b578851e6328cbb175f7caac\transformed\navigation-fragment-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\b22dbb23c035ff78db00d83fea831118\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\ce08b0cb61076d1b6cf6a104578be5b8\transformed\navigation-runtime-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\b52b992904b7370a8aca18c9c79e965b\transformed\activity-1.2.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\9436e3a927059136243601590df1ad8d\transformed\appcompat-resources-1.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\c0709e8f87449cd1bccc44fc6a15064e\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\4bbf43c082c987c6e8a262062f129fc5\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\9054c48aea88436ba296297e0f69f68b\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\43730dc782249af5c2e29643d9bd1911\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\77d7257d7c64dca0e2020ce3e5746e10\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\a73514ed2d0f26aaf094aebd327be77d\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\1a12bda40ed3bb2b171e86b9eeca8328\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\8a0985428782809250abc24e7f5fd5da\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\041093860b6ea7a68e94c97d2bc99a8b\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\055651de17cd141f64a0dcb2c182e0c7\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.3.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\c58d26cf8df0e3bd3f612ebb7cfa24f9\transformed\transition-1.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.3.5] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\fab9b7456ee1fb0eed9405b4278e19c7\transformed\navigation-common-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.6.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\0f6506036b090cd4938e3247e19bd290\transformed\core-1.6.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\8bc031c08e1f728888bd005dfbaec0b6\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\707b84a2ba6ec7256271e09b5d4d0a2d\transformed\lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\31948551d447a2505a0ef05795c49d98\transformed\savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\cb5069a4f9e1fde817f176966b736ecb\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\5f2599b1b656f620ad6f13704959b6f9\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\a28b5a79aa8d76afb8b9b6406c67dfc3\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\97127d07cd11fda778d43394464b97d2\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\bd91d8d8489431e462aecdc1dbc1b2ba\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\92604b750dd65e45047e7b46535a31b2\transformed\lifecycle-livedata-core-ktx-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\8c684e39be14bce5b88563f38209dbe9\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\d4eac70d58d3a798f6c9789747b4af89\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\2e09806c3c72f939ce27369dd27253e8\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\c179d84ad3386658e344b5d08e0d868f\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\fb1b0953a6a14dee91e7e77fd4021765\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\4d5b86952f1bdc50305577ce70b93558\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [org.tensorflow:tensorflow-lite-task-base:0.4.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\dbac5f614c9c0581d78e5e497028d98d\transformed\tensorflow-lite-task-base-0.4.0\AndroidManifest.xml:2:1-6:12
+MERGED from [org.tensorflow:tensorflow-lite-support-api:0.4.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\2d0fb3e1b81de4dd08673d65242cfbc0\transformed\tensorflow-lite-support-api-0.4.0\AndroidManifest.xml:2:1-5:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\941f1ace0e023fbb4eaa8a61483954c5\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [org.tensorflow:tensorflow-lite-api:2.8.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\e27d1499133d29b00c9b49ee1ec8d4a1\transformed\tensorflow-lite-api-2.8.0\AndroidManifest.xml:2:1-12:12
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\02f6c76461380060c413e3a03972c5f8\transformed\image-1.0.0-beta1\AndroidManifest.xml:2:1-9:12
+INJECTED from D:\Downloads\examples\lite\examples\audio_classification\android\app\src\main\AndroidManifest.xml:17:1-42:12
+INJECTED from D:\Downloads\examples\lite\examples\audio_classification\android\app\src\main\AndroidManifest.xml:17:1-42:12
+INJECTED from D:\Downloads\examples\lite\examples\audio_classification\android\app\src\main\AndroidManifest.xml:17:1-42:12
+	package
+		ADDED from D:\Downloads\examples\lite\examples\audio_classification\android\app\src\main\AndroidManifest.xml:18:5-49
+		INJECTED from D:\Downloads\examples\lite\examples\audio_classification\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Downloads\examples\lite\examples\audio_classification\android\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\Downloads\examples\lite\examples\audio_classification\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\Downloads\examples\lite\examples\audio_classification\android\app\src\main\AndroidManifest.xml:17:1-42:12
+		INJECTED from D:\Downloads\examples\lite\examples\audio_classification\android\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\Downloads\examples\lite\examples\audio_classification\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\Downloads\examples\lite\examples\audio_classification\android\app\src\main\AndroidManifest.xml:17:1-42:12
+		INJECTED from D:\Downloads\examples\lite\examples\audio_classification\android\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Downloads\examples\lite\examples\audio_classification\android\app\src\main\AndroidManifest.xml:17:11-69
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from D:\Downloads\examples\lite\examples\audio_classification\android\app\src\main\AndroidManifest.xml:20:5-71
+	android:name
+		ADDED from D:\Downloads\examples\lite\examples\audio_classification\android\app\src\main\AndroidManifest.xml:20:22-68
+application
+ADDED from D:\Downloads\examples\lite\examples\audio_classification\android\app\src\main\AndroidManifest.xml:22:5-40:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\19370ab5df133d2df1cd74ce821c5f5b\transformed\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\19370ab5df133d2df1cd74ce821c5f5b\transformed\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\5b78c74b519ed063b24b770809b3eaad\transformed\material-1.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\5b78c74b519ed063b24b770809b3eaad\transformed\material-1.0.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.core:core:1.6.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\0f6506036b090cd4938e3247e19bd290\transformed\core-1.6.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.6.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\0f6506036b090cd4938e3247e19bd290\transformed\core-1.6.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\97127d07cd11fda778d43394464b97d2\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\97127d07cd11fda778d43394464b97d2\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [org.tensorflow:tensorflow-lite-task-base:0.4.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\dbac5f614c9c0581d78e5e497028d98d\transformed\tensorflow-lite-task-base-0.4.0\AndroidManifest.xml:4:4-5:18
+MERGED from [org.tensorflow:tensorflow-lite-task-base:0.4.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\dbac5f614c9c0581d78e5e497028d98d\transformed\tensorflow-lite-task-base-0.4.0\AndroidManifest.xml:4:4-5:18
+MERGED from [org.tensorflow:tensorflow-lite-api:2.8.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\e27d1499133d29b00c9b49ee1ec8d4a1\transformed\tensorflow-lite-api-2.8.0\AndroidManifest.xml:10:5-20
+MERGED from [org.tensorflow:tensorflow-lite-api:2.8.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\e27d1499133d29b00c9b49ee1ec8d4a1\transformed\tensorflow-lite-api-2.8.0\AndroidManifest.xml:10:5-20
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\02f6c76461380060c413e3a03972c5f8\transformed\image-1.0.0-beta1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\02f6c76461380060c413e3a03972c5f8\transformed\image-1.0.0-beta1\AndroidManifest.xml:7:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.6.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\0f6506036b090cd4938e3247e19bd290\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from D:\Downloads\examples\lite\examples\audio_classification\android\app\src\main\AndroidManifest.xml:27:9-35
+	android:label
+		ADDED from D:\Downloads\examples\lite\examples\audio_classification\android\app\src\main\AndroidManifest.xml:25:9-41
+	android:roundIcon
+		ADDED from D:\Downloads\examples\lite\examples\audio_classification\android\app\src\main\AndroidManifest.xml:26:9-54
+	android:icon
+		ADDED from D:\Downloads\examples\lite\examples\audio_classification\android\app\src\main\AndroidManifest.xml:24:9-43
+	android:allowBackup
+		ADDED from D:\Downloads\examples\lite\examples\audio_classification\android\app\src\main\AndroidManifest.xml:23:9-35
+	android:theme
+		ADDED from D:\Downloads\examples\lite\examples\audio_classification\android\app\src\main\AndroidManifest.xml:29:9-40
+	android:taskAffinity
+		ADDED from D:\Downloads\examples\lite\examples\audio_classification\android\app\src\main\AndroidManifest.xml:28:9-32
+activity#org.tensorflow.lite.examples.audio.MainActivity
+ADDED from D:\Downloads\examples\lite\examples\audio_classification\android\app\src\main\AndroidManifest.xml:30:9-39:20
+	android:screenOrientation
+		ADDED from D:\Downloads\examples\lite\examples\audio_classification\android\app\src\main\AndroidManifest.xml:33:13-49
+	android:exported
+		ADDED from D:\Downloads\examples\lite\examples\audio_classification\android\app\src\main\AndroidManifest.xml:32:13-36
+	android:name
+		ADDED from D:\Downloads\examples\lite\examples\audio_classification\android\app\src\main\AndroidManifest.xml:31:13-75
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\Downloads\examples\lite\examples\audio_classification\android\app\src\main\AndroidManifest.xml:34:13-38:29
+action#android.intent.action.MAIN
+ADDED from D:\Downloads\examples\lite\examples\audio_classification\android\app\src\main\AndroidManifest.xml:35:17-69
+	android:name
+		ADDED from D:\Downloads\examples\lite\examples\audio_classification\android\app\src\main\AndroidManifest.xml:35:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Downloads\examples\lite\examples\audio_classification\android\app\src\main\AndroidManifest.xml:37:17-77
+	android:name
+		ADDED from D:\Downloads\examples\lite\examples\audio_classification\android\app\src\main\AndroidManifest.xml:37:27-74
+uses-sdk
+INJECTED from D:\Downloads\examples\lite\examples\audio_classification\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Downloads\examples\lite\examples\audio_classification\android\app\src\main\AndroidManifest.xml
+INJECTED from D:\Downloads\examples\lite\examples\audio_classification\android\app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:7.4.2] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\357004b0c6289e41175b478f5d627a6f\transformed\viewbinding-7.4.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:7.4.2] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\357004b0c6289e41175b478f5d627a6f\transformed\viewbinding-7.4.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\b05fc131ca6959c32ccd4add5667026e\transformed\navigation-fragment-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\b05fc131ca6959c32ccd4add5667026e\transformed\navigation-fragment-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\7e9f95f67e76fd3056585d8511de9447\transformed\fragment-ktx-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\7e9f95f67e76fd3056585d8511de9447\transformed\fragment-ktx-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\9d6bcd00429a95652b9cd137cd37a019\transformed\navigation-ui-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\9d6bcd00429a95652b9cd137cd37a019\transformed\navigation-ui-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.5] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\ad804154f9801281616547a4c82f1bcd\transformed\navigation-runtime-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.5] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\ad804154f9801281616547a4c82f1bcd\transformed\navigation-runtime-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.5] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\9c1e6d0c63bc3b0cc3f19933b5fc6799\transformed\navigation-common-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.5] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\9c1e6d0c63bc3b0cc3f19933b5fc6799\transformed\navigation-common-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\5be2d40c8c827b48a61dad78c6ec966a\transformed\activity-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\5be2d40c8c827b48a61dad78c6ec966a\transformed\activity-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.6.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\9c8d303f3d73c349ff0c944c60fc34c4\transformed\core-ktx-1.6.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.6.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\9c8d303f3d73c349ff0c944c60fc34c4\transformed\core-ktx-1.6.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\f61ecd5483bf95eef2605cf3f7cab2e2\transformed\lifecycle-runtime-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\f61ecd5483bf95eef2605cf3f7cab2e2\transformed\lifecycle-runtime-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\1dbb9267b44ef05f3745eaf50769b70e\transformed\lifecycle-viewmodel-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\1dbb9267b44ef05f3745eaf50769b70e\transformed\lifecycle-viewmodel-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\19370ab5df133d2df1cd74ce821c5f5b\transformed\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\19370ab5df133d2df1cd74ce821c5f5b\transformed\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\6d5eb70f609069e7da56822bc2236b05\transformed\navigation-ui-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\6d5eb70f609069e7da56822bc2236b05\transformed\navigation-ui-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\5b78c74b519ed063b24b770809b3eaad\transformed\material-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\5b78c74b519ed063b24b770809b3eaad\transformed\material-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\f08307c784d8cbed3fd3759610bf58ee\transformed\appcompat-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\f08307c784d8cbed3fd3759610bf58ee\transformed\appcompat-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\4eabd3cc4d1349fb4d0b316589668d85\transformed\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\4eabd3cc4d1349fb4d0b316589668d85\transformed\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\80015d2bdf91f546a5de8972988b7088\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\80015d2bdf91f546a5de8972988b7088\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\6c126dad25a15228e46af19353522346\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\6c126dad25a15228e46af19353522346\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\eaf3699f0d9df019bba7b5676f7190e1\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\eaf3699f0d9df019bba7b5676f7190e1\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [org.tensorflow:tensorflow-lite-task-audio:0.4.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\00a9c0e4da3d72e08f158b9c709dce8d\transformed\tensorflow-lite-task-audio-0.4.0\AndroidManifest.xml:5:5-7:41
+MERGED from [org.tensorflow:tensorflow-lite-task-audio:0.4.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\00a9c0e4da3d72e08f158b9c709dce8d\transformed\tensorflow-lite-task-audio-0.4.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\2e33c752b578851e6328cbb175f7caac\transformed\navigation-fragment-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\2e33c752b578851e6328cbb175f7caac\transformed\navigation-fragment-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\b22dbb23c035ff78db00d83fea831118\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\b22dbb23c035ff78db00d83fea831118\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\ce08b0cb61076d1b6cf6a104578be5b8\transformed\navigation-runtime-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\ce08b0cb61076d1b6cf6a104578be5b8\transformed\navigation-runtime-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\b52b992904b7370a8aca18c9c79e965b\transformed\activity-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\b52b992904b7370a8aca18c9c79e965b\transformed\activity-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\9436e3a927059136243601590df1ad8d\transformed\appcompat-resources-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\9436e3a927059136243601590df1ad8d\transformed\appcompat-resources-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\c0709e8f87449cd1bccc44fc6a15064e\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\c0709e8f87449cd1bccc44fc6a15064e\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\4bbf43c082c987c6e8a262062f129fc5\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\4bbf43c082c987c6e8a262062f129fc5\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\9054c48aea88436ba296297e0f69f68b\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\9054c48aea88436ba296297e0f69f68b\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\43730dc782249af5c2e29643d9bd1911\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\43730dc782249af5c2e29643d9bd1911\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\77d7257d7c64dca0e2020ce3e5746e10\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\77d7257d7c64dca0e2020ce3e5746e10\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\a73514ed2d0f26aaf094aebd327be77d\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\a73514ed2d0f26aaf094aebd327be77d\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\1a12bda40ed3bb2b171e86b9eeca8328\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\1a12bda40ed3bb2b171e86b9eeca8328\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\8a0985428782809250abc24e7f5fd5da\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\8a0985428782809250abc24e7f5fd5da\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\041093860b6ea7a68e94c97d2bc99a8b\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\041093860b6ea7a68e94c97d2bc99a8b\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\055651de17cd141f64a0dcb2c182e0c7\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\055651de17cd141f64a0dcb2c182e0c7\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\c58d26cf8df0e3bd3f612ebb7cfa24f9\transformed\transition-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\c58d26cf8df0e3bd3f612ebb7cfa24f9\transformed\transition-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.5] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\fab9b7456ee1fb0eed9405b4278e19c7\transformed\navigation-common-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.5] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\fab9b7456ee1fb0eed9405b4278e19c7\transformed\navigation-common-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\0f6506036b090cd4938e3247e19bd290\transformed\core-1.6.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\0f6506036b090cd4938e3247e19bd290\transformed\core-1.6.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\8bc031c08e1f728888bd005dfbaec0b6\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\8bc031c08e1f728888bd005dfbaec0b6\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\707b84a2ba6ec7256271e09b5d4d0a2d\transformed\lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\707b84a2ba6ec7256271e09b5d4d0a2d\transformed\lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\31948551d447a2505a0ef05795c49d98\transformed\savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\31948551d447a2505a0ef05795c49d98\transformed\savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\cb5069a4f9e1fde817f176966b736ecb\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\cb5069a4f9e1fde817f176966b736ecb\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\5f2599b1b656f620ad6f13704959b6f9\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\5f2599b1b656f620ad6f13704959b6f9\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\a28b5a79aa8d76afb8b9b6406c67dfc3\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\a28b5a79aa8d76afb8b9b6406c67dfc3\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\97127d07cd11fda778d43394464b97d2\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\97127d07cd11fda778d43394464b97d2\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\bd91d8d8489431e462aecdc1dbc1b2ba\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\bd91d8d8489431e462aecdc1dbc1b2ba\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\92604b750dd65e45047e7b46535a31b2\transformed\lifecycle-livedata-core-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\92604b750dd65e45047e7b46535a31b2\transformed\lifecycle-livedata-core-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\8c684e39be14bce5b88563f38209dbe9\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\8c684e39be14bce5b88563f38209dbe9\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\d4eac70d58d3a798f6c9789747b4af89\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\d4eac70d58d3a798f6c9789747b4af89\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\2e09806c3c72f939ce27369dd27253e8\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\2e09806c3c72f939ce27369dd27253e8\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\c179d84ad3386658e344b5d08e0d868f\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\c179d84ad3386658e344b5d08e0d868f\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\fb1b0953a6a14dee91e7e77fd4021765\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\fb1b0953a6a14dee91e7e77fd4021765\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\4d5b86952f1bdc50305577ce70b93558\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\4d5b86952f1bdc50305577ce70b93558\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [org.tensorflow:tensorflow-lite-support-api:0.4.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\2d0fb3e1b81de4dd08673d65242cfbc0\transformed\tensorflow-lite-support-api-0.4.0\AndroidManifest.xml:4:3-71
+MERGED from [org.tensorflow:tensorflow-lite-support-api:0.4.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\2d0fb3e1b81de4dd08673d65242cfbc0\transformed\tensorflow-lite-support-api-0.4.0\AndroidManifest.xml:4:3-71
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\941f1ace0e023fbb4eaa8a61483954c5\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\941f1ace0e023fbb4eaa8a61483954c5\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [org.tensorflow:tensorflow-lite-api:2.8.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\e27d1499133d29b00c9b49ee1ec8d4a1\transformed\tensorflow-lite-api-2.8.0\AndroidManifest.xml:7:5-8:41
+MERGED from [org.tensorflow:tensorflow-lite-api:2.8.0] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\e27d1499133d29b00c9b49ee1ec8d4a1\transformed\tensorflow-lite-api-2.8.0\AndroidManifest.xml:7:5-8:41
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\02f6c76461380060c413e3a03972c5f8\transformed\image-1.0.0-beta1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\Dell Latitude\.jdks\corretto-11.0.19\caches\transforms-3\02f6c76461380060c413e3a03972c5f8\transformed\image-1.0.0-beta1\AndroidManifest.xml:5:5-44
+INJECTED from D:\Downloads\examples\lite\examples\audio_classification\android\app\src\main\AndroidManifest.xml
+INJECTED from D:\Downloads\examples\lite\examples\audio_classification\android\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\Downloads\examples\lite\examples\audio_classification\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\Downloads\examples\lite\examples\audio_classification\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Downloads\examples\lite\examples\audio_classification\android\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Downloads\examples\lite\examples\audio_classification\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\Downloads\examples\lite\examples\audio_classification\android\app\src\main\AndroidManifest.xml
+		MERGED from D:\Downloads\examples\lite\examples\audio_classification\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Downloads\examples\lite\examples\audio_classification\android\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+IMPLIED from D:\Downloads\examples\lite\examples\audio_classification\android\app\src\main\AndroidManifest.xml:17:1-42:12 reason: src.java.org.tensorflow.lite.task.core has a targetSdkVersion < 4
+uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from D:\Downloads\examples\lite\examples\audio_classification\android\app\src\main\AndroidManifest.xml:17:1-42:12 reason: src.java.org.tensorflow.lite.task.core has a targetSdkVersion < 4
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from D:\Downloads\examples\lite\examples\audio_classification\android\app\src\main\AndroidManifest.xml:17:1-42:12 reason: src.java.org.tensorflow.lite.task.core requested WRITE_EXTERNAL_STORAGE
