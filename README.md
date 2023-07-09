@@ -1,36 +1,47 @@
-# TensorFlow Examples
+# TensorFlow Lite Audio Classification Android Demo
 
-<div align="center">
-  <img src="https://www.tensorflow.org/images/tf_logo_social.png" /><br /><br />
-</div>
+### Overview
 
-<h2>Most important links!</h2>
+This sample will record audio on a physical Android device and attempt to
+classify those recordings. The supported classification models include
+[YAMNET](https://tfhub.dev/google/lite-model/yamnet/classification/tflite/1) and
+a custom speech command model trained using
+[TensorFlow's Model Maker](https://www.tensorflow.org/lite/models/modify/model_maker/speech_recognition).
+These instructions walk you through building and running the demo on an Android
+device.
 
-* [Community examples](./community)
-* [Course materials](./courses/udacity_deep_learning) for the [Deep Learning](https://www.udacity.com/course/deep-learning--ud730) class on Udacity
+The model files are downloaded via Gradle scripts when you build and run the
+app. You don't need to do any steps to download TFLite models into the project
+explicitly.
 
-If you are looking to learn TensorFlow, don't miss the
-[core TensorFlow documentation](http://github.com/tensorflow/docs)
-which is largely runnable code.
-Those notebooks can be opened in Colab from
-[tensorflow.org](https://tensorflow.org).
+This application should be run on a physical Android device.
 
-<h2>What is this repo?</h2>
+## Build the demo using Android Studio
 
-This is the TensorFlow example repo.  It has several classes of material:
+### Prerequisites
 
-* Showcase examples and documentation for our fantastic [TensorFlow Community](https://tensorflow.org/community)
-* Provide examples mentioned on TensorFlow.org
-* Publish material supporting official TensorFlow courses
-* Publish supporting material for the [TensorFlow Blog](https://blog.tensorflow.org) and [TensorFlow YouTube Channel](https://youtube.com/tensorflow)
+*   The **[Android Studio](https://developer.android.com/studio/index.html)**
+    IDE. This sample has been tested on Android Studio Bumblebee.
 
-We welcome community contributions, see [CONTRIBUTING.md](CONTRIBUTING.md) and, for style help,
-[Writing TensorFlow documentation](https://www.tensorflow.org/community/contribute/docs_style)
-guide.
+*   A physical Android device with a minimum OS version of SDK 23 (Android 6.0)
+    with developer mode enabled. The process of enabling developer mode may vary
+    by device.
 
-To file an issue, use the tracker in the
-[tensorflow/tensorflow](https://github.com/tensorflow/tensorflow/issues/new?template=20-documentation-issue.md) repo.
+### Building
 
-## License
+*   Open Android Studio. From the Welcome screen, select Open an existing
+    Android Studio project.
 
-[Apache License 2.0](LICENSE)
+*   From the Open File or Project window that appears, navigate to and select
+    the tensorflow-lite/examples/audio_classification/android
+    directory. Click OK.
+
+*   If it asks you to do a Gradle Sync, click OK.
+
+*   With your Android device connected to your computer and developer mode
+    enabled, click on the green Run arrow in Android Studio.
+
+### Models used
+
+Downloading, extraction, and placing the models into the assets folder is
+managed automatically by the download_model.gradle file.
