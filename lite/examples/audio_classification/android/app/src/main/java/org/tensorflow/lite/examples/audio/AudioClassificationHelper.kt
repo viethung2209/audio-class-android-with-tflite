@@ -28,14 +28,14 @@ import org.tensorflow.lite.task.audio.classifier.AudioClassifier
 import org.tensorflow.lite.task.core.BaseOptions
 
 class AudioClassificationHelper(
-  val context: Context,
-  val listener: AudioClassificationListener,
-  var currentModel: String = YAMNET_MODEL,
-  var classificationThreshold: Float = DISPLAY_THRESHOLD,
-  var overlap: Float = DEFAULT_OVERLAP_VALUE,
-  var numOfResults: Int = DEFAULT_NUM_OF_RESULTS,
-  var currentDelegate: Int = 0,
-  var numThreads: Int = 2
+    val context: Context,
+    val listener: AudioClassificationListener,
+    var currentModel: String = YAMNET_MODEL,
+    var classificationThreshold: Float = DISPLAY_THRESHOLD,
+    var overlap: Float = DEFAULT_OVERLAP_VALUE,
+    var numOfResults: Int = DEFAULT_NUM_OF_RESULTS,
+    var currentDelegate: Int = 0,
+    var numThreads: Int = 2
 ) {
     private lateinit var classifier: AudioClassifier
     private lateinit var tensorAudio: TensorAudio
@@ -63,6 +63,7 @@ class AudioClassificationHelper(
             DELEGATE_CPU -> {
                 // Default
             }
+
             DELEGATE_NNAPI -> {
                 baseOptionsBuilder.useNnapi()
             }
@@ -111,7 +112,8 @@ class AudioClassificationHelper(
             classifyRunnable,
             0,
             interval,
-            TimeUnit.MILLISECONDS)
+            TimeUnit.MILLISECONDS
+        )
     }
 
     private fun classifyAudio() {
@@ -135,5 +137,6 @@ class AudioClassificationHelper(
         const val DEFAULT_OVERLAP_VALUE = 0.5f
         const val YAMNET_MODEL = "yamnet.tflite"
         const val SPEECH_COMMAND_MODEL = "speech.tflite"
+        const val ROBOT_COMMAND_MODEL = "robot.tflite"
     }
 }

@@ -17,6 +17,7 @@
 package org.tensorflow.lite.examples.audio.fragments
 
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -47,6 +48,7 @@ class AudioFragment : Fragment() {
         override fun onResult(results: List<Category>, inferenceTime: Long) {
             requireActivity().runOnUiThread {
                 adapter.categoryList = results
+                Log.d("RESULT", results.toString())
                 adapter.notifyDataSetChanged()
                 fragmentAudioBinding.bottomSheetLayout.inferenceTimeVal.text =
                     String.format("%d ms", inferenceTime)
@@ -63,9 +65,9 @@ class AudioFragment : Fragment() {
     }
 
     override fun onCreateView(
-      inflater: LayoutInflater,
-      container: ViewGroup?,
-      savedInstanceState: Bundle?
+        inflater: LayoutInflater,
+        container: ViewGroup?,
+        savedInstanceState: Bundle?
     ): View {
         _fragmentBinding = FragmentAudioBinding.inflate(inflater, container, false)
         return fragmentAudioBinding.root
@@ -86,31 +88,39 @@ class AudioFragment : Fragment() {
         // https://www.tensorflow.org/lite/models/modify/model_maker/speech_recognition
         fragmentAudioBinding.bottomSheetLayout.modelSelector.setOnCheckedChangeListener(
             object : RadioGroup.OnCheckedChangeListener {
-            override fun onCheckedChanged(group: RadioGroup?, checkedId: Int) {
-                when (checkedId) {
-                    R.id.yamnet -> {
-                        audioHelper.stopAudioClassification()
-                        audioHelper.currentModel = AudioClassificationHelper.YAMNET_MODEL
-                        audioHelper.initClassifier()
-                    }
-                    R.id.speech_command -> {
-                        audioHelper.stopAudioClassification()
-                        audioHelper.currentModel = AudioClassificationHelper.SPEECH_COMMAND_MODEL
-                        audioHelper.initClassifier()
+                override fun onCheckedChanged(group: RadioGroup?, checkedId: Int) {
+                    when (checkedId) {
+                        R.id.yamnet -> {
+                            audioHelper.stopAudioClassification()
+                            audioHelper.currentModel = AudioClassificationHelper.YAMNET_MODEL
+                            audioHelper.initClassifier()
+                        }
+
+                        R.id.speech_command -> {
+                            audioHelper.stopAudioClassification()
+                            audioHelper.currentModel =
+                                AudioClassificationHelper.SPEECH_COMMAND_MODEL
+                            audioHelper.initClassifier()
+                        }
+
+                        R.id.robot_command -> {
+                            audioHelper.stopAudioClassification()
+                            audioHelper.currentModel = AudioClassificationHelper.ROBOT_COMMAND_MODEL
+                            audioHelper.initClassifier()
+                        }
                     }
                 }
-            }
-        })
+            })
 
         // Allow the user to change the amount of overlap used in classification. More overlap
         // can lead to more accurate resolves in classification.
         fragmentAudioBinding.bottomSheetLayout.spinnerOverlap.onItemSelectedListener =
             object : AdapterView.OnItemSelectedListener {
                 override fun onItemSelected(
-                  parent: AdapterView<*>?,
-                  view: View?,
-                  position: Int,
-                  id: Long
+                    parent: AdapterView<*>?,
+                    view: View?,
+                    position: Int,
+                    id: Long
                 ) {
                     audioHelper.stopAudioClassification()
                     audioHelper.overlap = 0.25f * position
@@ -196,10 +206,10 @@ class AudioFragment : Fragment() {
         fragmentAudioBinding.bottomSheetLayout.spinnerDelegate.onItemSelectedListener =
             object : AdapterView.OnItemSelectedListener {
                 override fun onItemSelected(
-                  parent: AdapterView<*>?,
-                  view: View?,
-                  position: Int,
-                  id: Long
+                    parent: AdapterView<*>?,
+                    view: View?,
+                    position: Int,
+                    id: Long
                 ) {
                     audioHelper.stopAudioClassification()
                     audioHelper.currentDelegate = position
@@ -230,14 +240,14 @@ class AudioFragment : Fragment() {
                 .navigate(AudioFragmentDirections.actionAudioToPermissions())
         }
 
-        if (::audioHelper.isInitialized ) {
+        if (::audioHelper.isInitialized) {
             audioHelper.startAudioClassification()
         }
     }
 
     override fun onPause() {
         super.onPause()
-        if (::audioHelper.isInitialized ) {
+        if (::audioHelper.isInitialized) {
             audioHelper.stopAudioClassification()
         }
     }

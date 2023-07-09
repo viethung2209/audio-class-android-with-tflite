@@ -12,5 +12,13 @@ task downloadSpeechClassifierModel(type: Download) {
     overwrite false
 }
 
+task downloadRobotClassifierModel(type: Download) {
+    // This model is custom made using Model Maker. A detailed guide can be found here:
+    // https://www.tensorflow.org/lite/models/modify/model_maker/speech_recognition
+    src 'https://drive.google.com/uc?id=1VCKTt0LQvDd98rGEqi1eZW6gzPd0Nt8N&export=download'
+    dest project.ext.ASSET_DIR + '/robot.tflite'
+    overwrite false
+}
+
 preBuild.dependsOn downloadAudioClassifierModel, downloadSpeechClassifierModel
 
